@@ -1,37 +1,59 @@
-## Welcome to GitHub Pages
+# 製作物ポートフォリオ
 
-You can use the [editor on GitHub](https://github.com/YoshikiyoShinsei/portfolio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## 研究
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Archileon
 
-### Markdown
+大型の3Dプリンタを用いて建築を建てることを目的とした学生団体に所属。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**3Dモデル分割ソフト**
 
-```markdown
-Syntax highlighted code block
+使用言語: node.js
 
-# Header 1
-## Header 2
-### Header 3
+**吐出軌道手動編集ソフト**
 
-- Bulleted
-- List
+使用言語: django, javascript, html, css
 
-1. Numbered
-2. List
+**吐出軌道自動補正ソフト**
 
-**Bold** and _Italic_ and `Code` text
+使用言語: python
 
-[Link](url) and ![Image](src)
-```
+### 堀・藤本研究室(学士課程)
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+**自動車車両運動制御のシミュレーション**
 
-### Jekyll Themes
+使用言語: matlab
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/YoshikiyoShinsei/portfolio/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### 竹内研究室(修士課程)
 
-### Support or Contact
+**ニューラルネットワークを用いた画像識別およびアクセラレータ回路のシミュレーション**
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+使用言語: python, pytorch
+
+## インターン
+
+### ソナス株式会社
+
+**自社製通信システムを用いた在庫管理システム**
+
+使用言語(技術): arduino, Google API
+
+### 株式会社マネーフォワード
+
+**Kubernetesを用いた開発環境の構築**
+
+使用言語(技術): kubernetes, AWS EKS, terraform etc..
+
+## 個人開発
+
+### 電磁波可視化システム
+
+使用言語(技術): arduino, python, opencv, サーボモーター, 自作通信アンテナ
+
+### ターミナル上で動く自作エディタ
+
+使用言語: C++
+
+### Alexa-Notion Controller
+
+使用言語: Notion API, Alexa skills kit
