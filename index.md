@@ -7,14 +7,22 @@
 大型の3Dプリンタを用いて建築を建てることを目的とした学生団体に所属。
 
 **3Dモデル分割ソフト**
-
+<p align="center">
+<img width="800" alt="スクリーンショット 2021-12-18 14 18 14" src="https://user-images.githubusercontent.com/49677224/146630396-1fcac2e6-a319-402b-b71e-c67e7b352351.png">
+</p>
 使用言語: node.js
 
 **吐出軌道手動編集ソフト**
+<p align="center">
+<img width="800" alt="スクリーンショット 2021-12-18 14 18 14" src="https://user-images.githubusercontent.com/49677224/146630419-006d194b-8660-47ee-a52d-1911e5c0edc6.png">
+</p>
 
 使用言語: django, javascript, html, css
 
-**吐出軌道自動補正ソフト**
+**サポート軌道自動生成ソフト**
+<p align="center">
+<img width="800" alt="スクリーンショット 2021-12-18 14 18 14" src="https://user-images.githubusercontent.com/49677224/146630155-82bebdea-d561-4450-8445-2a90e59f9186.png">
+</p>
 
 使用言語: python
 
