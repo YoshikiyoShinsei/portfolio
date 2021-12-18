@@ -4,39 +4,66 @@
 
 ### Archileon
 
-大型の3Dプリンタを用いて建築を建てることを目的とした学生団体に所属。
+大型の3Dプリンタを用いて建築を建てることを目的とした学生団体に所属。  
+これまでの建築とは異なる、有機的な構造物の建設を目指す。
 
 **3Dモデル分割ソフト**
+
+- 課題：  
+  
+  - 「積層する建築物は大きすぎて3Dプリントで1度に印刷することはできない」  
+  - 「半液体の材料を使用するため、斜めに積層すると材料が垂れてしまう」  
+- 手法：  
+  
+  - できる限り斜めの積層が生じないようにモデルを自動で分割するアルゴリズムを考案し、javascriptを用いたプログラムで実装した。
 <p align="center">
 <img width="800" alt="スクリーンショット 2021-12-18 14 18 14" src="https://user-images.githubusercontent.com/49677224/146630396-1fcac2e6-a319-402b-b71e-c67e7b352351.png">
 </p>
-使用言語: node.js
+
+- 使用言語： node.js  
+- 開発形態： 4人（チームメンバー）
 
 **吐出軌道手動編集ソフト**
+
+- 課題：  
+  
+  - 「3dプリンタの吐出軌道を生成する既存のソフトでは、建築サイズの軌道を生成した際にずれや歪みが生じる」  
+- 手法：  
+  
+  - この問題の解決のため、吐出軌道のグラフィカルな確認、問題箇所の手動での修正を可能にするソフト。  
+  - 吐出軌道を1層ずつ確認する2d表示画面と、軌道全体を確認する3d表示画面を持つ。
 <p align="center">
 <img width="800" alt="スクリーンショット 2021-12-18 14 18 14" src="https://user-images.githubusercontent.com/49677224/146630419-006d194b-8660-47ee-a52d-1911e5c0edc6.png">
 </p>
 
-使用言語: django, javascript, html, css
+- 使用言語： django, javascript, html, css  
+- 開発形態： 4人(チームリーダー)
 
 **サポート軌道自動生成ソフト**
+- 課題：  
+
+  - 「モデルの内側を完全稠密にすると、使用材料が非常に増える」
+  
+- 手法：
+
+  - モデルの内側を空洞にし、垂れが生じる部分のみに支えの材料を吐出する。
 <p align="center">
 <img width="800" alt="スクリーンショット 2021-12-18 14 18 14" src="https://user-images.githubusercontent.com/49677224/146630155-82bebdea-d561-4450-8445-2a90e59f9186.png">
 </p>
 
-使用言語: python
+- 使用言語： python
 
 ### 堀・藤本研究室(学士課程)
 
 **自動車車両運動制御のシミュレーション**
 
-使用言語: matlab
+- 使用言語: matlab
 
 ### 竹内研究室(修士課程)
 
 **ニューラルネットワークを用いた画像識別およびアクセラレータ回路のシミュレーション**
 
-使用言語: python, pytorch
+- 使用言語: python, pytorch
 
 ## インターン
 
@@ -44,24 +71,33 @@
 
 **自社製通信システムを用いた在庫管理システム**
 
-使用言語(技術): arduino, Google API
+- 使用言語(技術): arduino, Google API
 
 ### 株式会社マネーフォワード
 
 **Kubernetesを用いた開発環境の構築**
 
-使用言語(技術): kubernetes, AWS EKS, terraform etc..
+- 使用言語(技術): kubernetes, AWS EKS, terraform etc..
 
 ## 個人開発
 
 ### 電磁波可視化システム
+- Wifiの重要性が日に日に高まっている昨今、室内の電波環境を視覚的に確認できるシステムを作ってみた。
+- 指向性アンテナを多方向に掃引することで、電波がどの方向から来るのかを判定する。
+  
+<p align="center">
+<img width="400" src="https://user-images.githubusercontent.com/49677224/146632113-bdab76cb-eecb-4ad2-ae1a-a9f119c346dc.gif">
+  <br>
+<img width="400" alt="スクリーンショット 2021-12-18 14 18 14" src="https://user-images.githubusercontent.com/49677224/146631910-695956a0-a365-483c-bf1a-48d80b4712a2.png">
+</p>
 
-使用言語(技術): arduino, python, opencv, サーボモーター, 自作通信アンテナ
+- 使用言語(技術): arduino, python, opencv, サーボモーター, 自作通信アンテナ
+- 開発形態： 2人
 
 ### ターミナル上で動く自作エディタ
 
-使用言語: C++
+- 使用言語: C++
 
 ### Alexa-Notion Controller
 
-使用言語: Notion API, Alexa skills kit
+- 使用言語: Notion API, Alexa skills kit
