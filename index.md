@@ -20,7 +20,7 @@
 - 使用言語： node.js  
 - 開発形態： 4人（チームメンバー）
 
-### 吐出軌道手動編集ソフト
+### 吐出軌道手動編集用webアプリケーション
 <p align="center">
 <img width="800" alt="スクリーンショット 2021-12-18 14 18 14" src="https://user-images.githubusercontent.com/49677224/146630419-006d194b-8660-47ee-a52d-1911e5c0edc6.png">
 </p>
